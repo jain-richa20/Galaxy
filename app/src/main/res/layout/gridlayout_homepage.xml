@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kurta" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <TextView
+            android:id="@+id/tvOverlayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/chonburi"
+            android:gravity="center"
+
+            android:text="Kurta set Under"
+            android:textColor="#FDFCFC"
+            android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/cinzel_bold"
+        android:gravity="center"
+        android:text="₹ 1200"
+        android:textColor="#F8F7F7"
+        android:textSize="20sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

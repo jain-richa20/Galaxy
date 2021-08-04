@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_horizontal|bottom"
+        >
+        <ImageView
+            android:id="@+id/shirtimage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/shirt1"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="2dp">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/actor"
+            android:gravity="left"
+            android:text="HIGHLANDER"
+            android:textColor="#090909"
+            android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/subheading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="center"
+                    android:text="Men Slim Fit Casual Shirt"
+                    android:textColor="#090909"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/price_shirt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="left"
+                    android:text="₹1200"
+                    android:textColor="#090909"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/wish_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/wishlist"
+                android:gravity="right" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

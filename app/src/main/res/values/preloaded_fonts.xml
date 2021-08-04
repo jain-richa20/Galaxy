@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/actor</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/alegreya_sc_bold</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/amarante</item>
+        <item>@font/bevan</item>
+        <item>@font/cantata_one</item>
+        <item>@font/chonburi</item>
+        <item>@font/cinzel_bold</item>
+        <item>@font/open_sans</item>
+        <item>@font/open_sans_italic</item>
+        <item>@font/open_sans_light</item>
+        <item>@font/open_sans_semibold</item>
+    </array>
+</resources>

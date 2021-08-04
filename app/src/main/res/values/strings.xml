@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Galaxy</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter a phone number</string>
+    <string name="email_error">Please enter email address</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="repassword_error">Please re-enter password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 8 characters</string>
+    <string name="match_password">Password not match</string>
+    <string name="error_invalid_mobile">Please enter 10 digit mobile number</string>
+    <string name="error_in_mobile">Please enter correct number</string>
+    <string name="title_activity_map">Map</string>
+
+        <string name="facebook_app_id">3059331150970174</string>
+        <string name="fb_login_protocol_scheme">fb3059331150970174</string>
+</resources>
